@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {background-color: lightgrey;}
 .inline-grid {cursor: pointer; display:grid; grid-template-columns: auto auto auto; padding: 20px; text-align: center; font-family: verdana; font-size: 22px; background-color: magenta; grid-gap: 3px;}
 .inline-grid > div {background-color: #F987C5; padding: 30px; }
@@ -7,3 +8,14 @@ body {background-color: lightgrey;}
 .item2:hover, .item6:hover, .item10:hover, .item14:hover {color: green;}
 .item3:hover, .item7:hover, .item11:hover, .item15:hover {color: yellow;}
 .item4:hover, .item8:hover, .item12:hover, .item16:hover {color: red;}
+=======
+body {background-color: lightgrey;}
+.inline-grid {cursor: pointer; display:grid; grid-template-columns: auto auto auto; padding: 20px; text-align: center; font-family: verdana; font-size: 22px; background-color: magenta; grid-gap: 3px;}
+.inline-grid > div {background-color: #F987C5; padding: 30px; }
+#item1 {grid-column: 1/4; text-align: right; padding: 30px; font-size: 22px;}
+.item18 {grid-column: 2/ span 2;}
+.item1:hover, .item5:hover, .item9:hover, .item13:hover {color: white;}
+.item2:hover, .item6:hover, .item10:hover, .item14:hover {color: green;}
+.item3:hover, .item7:hover, .item11:hover, .item15:hover {color: yellow;}
+.item4:hover, .item8:hover, .item12:hover, .item16:hover {color: red;}
+>>>>>>> dc9c82c340ddc4ac8edf65af46e1676cfed25122
